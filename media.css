@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+  
+  .carousel-caption {
+	position: absolute;
+	top: 45%;
+
+}
+
+.carousel-caption h1{
+	
+	font-size:500%
+	text-transform:uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+
+.carousel-caption h5{
+	
+	font-size:200%
+	font-weight:500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom:1rem;
+}
+
+}
+@media (max-width: 862px) {
+  
+  .logo {
+	background-color: blue; 
+	background-image: url("img/head_logo.jpg"); 
+	background-size: cover;	
+	background-clip: border-box;
+	height : 120px;
+	}
+	
+  .social-top {
+		display: none;
+	}
+
+}
+
+
+@media (min-width: 862px){
+  
+  .logo {
+	background-color: blue; 
+	background-image: url("img/head_logo.jpg"); 
+	background-size: cover;	
+	background-clip: border-box;
+	height : 230px;
+	}
+	
+  
+}

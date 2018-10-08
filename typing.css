@@ -1,0 +1,35 @@
+.types {
+  animation: typing 2s  steps(17);
+  animation-delay: 2s;
+  overflow: hidden;
+  white-space:nowrap;
+  font-family: consolas;
+  border-right: 4px solid black;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing{
+  0%{
+    background-color: red;
+    width:0ch;
+    border-right: 4px solid green;
+  }
+  
+  25%{
+    background-color: purple;
+    width:10ch;
+    border-right: 4px solid white;
+  }
+  50%{
+    background-color: yellow;
+    width:17ch;
+    border-right: 4px solid black;
+  }
+  75%{
+      border-right: 4px solid purple;
+  }
+  100%{
+    background-color: yellow;
+    width:17ch;
+  }
+}
